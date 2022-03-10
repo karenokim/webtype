@@ -1,41 +1,95 @@
 body{
-  margin: 0;
+  margin: auto;
+  height: 100vh;
 }
 
-main{
-    height: 10vh;
+/*content{
+  margin: auto;
+  width: 100%;
+  top: 400px;
+    width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+}*/
+
+.alphabet{
+align-content: center;
 }
 
 .image{
-    position: relative;
-    margin-top: 25px;
-    width: 35%;
-    float: right;
+  position: relative;
+  top: 150px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
-.image:hover .overlay{
-  display: block;
-}
-.image1 {
-  display: block;
-}
-
-article{
-  margin-left: 40px;
-}
-
-p.j1{
-font-family: 'Roboto', sans-serif;
-font-size: 55pt;
-text-align: left;
-}
-
-.overlay {
+.overlay{
   position: absolute;
   top: 0;
   left: 0;
   display: none;
 }
+
+.image:hover .overlay{
+  display: block;
+}
+/*
+.quote{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+}
+*/
+p.j1{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20pt;
+  text-align: center;
+}
+
+p.j1:hover{
+  color: black;
+  
+}
+
+.col1{
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+}
+
+mark {
+    background-color: yellow;
+    font-style: bold;
+  }
+
+
+p.k1{
+font-family: 'Roboto', sans-serif;
+font-style: "regular 400";
+font-size: 14pt;
+color: white;
+line-height: 1.6;
+text-align: center;
+}
+
+.k1:hover{
+  color: black;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: yellow;
+  color: black;
+  height: 50vh;
+}
+
 
 @media screen and (max-width: 480px){ 
   .article{

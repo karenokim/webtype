@@ -1,41 +1,14 @@
-body{
-  cursor: pointer;
- /* background-color: black;*/
-}
-
-/*.zoom:hover {
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.5); 
-}*/
-
-/*.no{
-  width: 80%;
-  padding-left: 50px;
-  margin-top: 100px;
-    margin-bottom: 100px;  
-}*/
-
-
-.image1{
+html,body{
+  margin: 0;
+  height: 100vh;
   width: 100%;
 }
-.image2{
-  right: 0;
-}
 
-.image3{
-  left: 0;
-}
-
-.fixed{
-    position: fixed;
-    top: 25%;
-    width: 150px;
-}
-
-.alphabet{
-  width: 105%;
+.col1{
+width: 50%;
+float: left;
+display: block;
+height: 100vh;
 }
 
 mark {
@@ -43,62 +16,46 @@ mark {
     font-style: bold;
   }
 
-
-img{
-  width: 100%;
-  margin-left: 20px;
-}
-
-/*.sign{
-  width: 80%;
+/*.alphabet{
+  width: 100px;
 }*/
 
 p.k1{
 font-family: 'Roboto Serif', serif;
-margin-left: 50px;
-font-size: 30pt;
+font-size: 25pt;
 color: white;
 line-height: 1.6;
-
+margin-left: 100px;
 }
 
 .k1:hover{
   color: black;
 }
 
-article{
-  width: 80%;
-  margin-top: 120px;
-  margin-left: 150px;
-  position: relative;
- color: black;
-    display: flex;
-}
-
-/*.quote{
-width: 75%;
-flex: 1;
-margin: auto;
-text-align: center;
-}*/
-
-.col1{
-width: 80%;
-/*flex: 2;*/
-margin: -140px;
-}
 
 .col2{
-  flex: 1;
-margin-top: -140px;
+/*  flex: 1;*/
+width: 30%;
+float: right;
+height: 100vh;
+margin-right: auto;
 }
 
-hr.ending{
+.image{
+  width: 30%;
+}
+
+.no{
+  width: 20%;
+}
+
+/*hr.ending{
     border: 1px black;
 }
-
-footer{
+*/
+/*.footer{
+  height: 30vh;
+  bottom: 0;
   background-color: #40e0d0;
-    text-align: justify;
-
-  }
+  text-align: justify;
+  }*/
