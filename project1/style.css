@@ -1,20 +1,7 @@
 body{
   margin: auto;
   height: 100vh;
-}
-
-/*content{
-  margin: auto;
-  width: 100%;
-  top: 400px;
-    width: 45%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 200px;
-}*/
-
-.alphabet{
-align-content: center;
+  max-width: 70em;
 }
 
 .image{
@@ -36,43 +23,26 @@ align-content: center;
 .image:hover .overlay{
   display: block;
 }
-/*
-.quote{
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 70px;
-}
-*/
-p.j1{
-  color: white;
-  font-family: 'Roboto', sans-serif;
-  font-size: 20pt;
-  text-align: center;
-}
-
-p.j1:hover{
-  color: black;
-  
-}
 
 .col1{
-  width: 45%;
+  width: 55%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 200px;
 }
 
 mark {
-    background-color: yellow;
-    font-style: bold;
+    /*background-color: yellow;
+    font-style: "bold" !important;*/
+    /*text-decoration: underline;
+    text-decoration-color: skyblue;*/
   }
 
 
 p.k1{
 font-family: 'Roboto', sans-serif;
-font-style: "regular 400";
-font-size: 14pt;
+font-style: "bold 700";
+font-size: 12pt;
 color: white;
 line-height: 1.6;
 text-align: center;
@@ -84,21 +54,31 @@ text-align: center;
 
 footer {
   text-align: center;
-  padding: 10px;
-  background-color: yellow;
+/*  padding: 10px;*/
   color: black;
-  height: 50vh;
+  margin-top: 2em;
+  height: 5vh;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10pt;
 }
 
 
-@media screen and (max-width: 480px){ 
-  .article{
-    width: 50%;
+@media screen and (max-width: 900px){
+  /*body{
+    font-size:  16px;
+  }*/
+ p.k1{
+    font-size: 1.5em;
   }
-} 
+  .image{
+    width: 100%;
+  }
+}
 
-@media screen and (max-width: 700px) {
-  .image1 {
-    min-width: 73.33%; 
+@media screen and (max-width: 700px){
+  article{
+    max-width: none;
+    width: 90%;
   }
+
 }
