@@ -17,7 +17,7 @@ font-family: 'Source Code Pro', monospace;
   top: 150px;
   width: 600px;
   margin: auto;
-  margin-bottom: 20em;
+  margin-bottom: 15em;
 }
 
 .overlay{
@@ -51,6 +51,8 @@ font-family: 'Source Code Pro', monospace;
 position: relative;
 width: 550px;
 margin: auto;
+margin-bottom: 3em;
+margin-top: 3em;
 }
 
 
@@ -58,18 +60,24 @@ margin: auto;
 position: relative;
 width: 550px;
 margin: auto;
+margin-bottom: 3em;
+margin-top: 3em;
 }
 
 .alphabet2{
 position: relative;
 width: 550px;
 margin: auto;
+margin-bottom: 3em;
+margin-top: 3em;
 }
 
 .alphabet3{
 position: relative;
 width: 600px;
 margin: auto;
+margin-bottom: 3em;
+margin-top: 3em;
 }
 
 mark::before { 
@@ -170,6 +178,10 @@ body{
   }
   p.k0{
     font-size: 14px;
+  }
+
+.alphabet0{
+  width: 100%;
   }
 
   .alphabet1{
