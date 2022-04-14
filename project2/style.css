@@ -11,12 +11,16 @@
   url('fonts/weave.ttf') format('truetype-variations');
 }
 
+#bigletter {
+  font-size: 150px;
+}
+
 #bigletter2 {
   font-size: 230px;
 }
 
 #bigletter3 {
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
 }
 .plain {
