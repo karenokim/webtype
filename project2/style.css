@@ -44,7 +44,7 @@ h1{
 }
 
 #bigletter2 {
-  font-size: 230px;
+  font-size: 100px;
   color: #e788bb;
   max-height: 30%;
 }
@@ -54,6 +54,21 @@ h1{
   text-align: center;
   color: #e897b9;
 }
+
+
+
+#bigletter4 {
+  font-size: 300px;
+  text-align: center;
+  color: #e897b9;
+}
+
+#bigletter {
+  font-size: 120px;
+  --wght: 100;
+  color: #e788bb;
+}
+
 
 .weave, .weave *{
   font-variation-settings: 'wght' var(--wght);
@@ -109,13 +124,11 @@ input.axis-range{
   margin: 0 20px;
 }
 
-#tester{
-    --wght: 900;
-}
 
 
 .tester-container {
     display: flex;
+    margin-bottom: 10em;
     --wght: 900;
     flex-direction: column;
     align-items: center;
@@ -124,7 +137,7 @@ input.axis-range{
     margin-top: 20px;
     margin-bottom: 20px;
     width: 100%;
- background: repeating-linear-gradient(
+    background: repeating-linear-gradient(
     to right,
     #ffffff 3px,
     #139e54 5px
@@ -133,6 +146,7 @@ input.axis-range{
 
 #tester {
     width: 100%;
+        margin-bottom: 10em;
     padding: 20px;
     margin-bottom: 30px;
     font-size: 4vw;
