@@ -1,7 +1,19 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body{
+  margin: auto;
+  height: 100vh;
+  width: 55%;
+  font-family: 'Weave', sans-serif;
+  margin-bottom: 4rem;
+  font-size: 40px;
+   background-color: #fcfcfc;
+   --wght: 100;
+}
+
+h1{
+  margin-top: 1em;
+  font-size: 75px;
+  text-align: center;
+  color: #1483d7;
 }
 
 @font-face {
@@ -11,52 +23,42 @@
   url('fonts/weave.ttf') format('truetype-variations');
 }
 
-#bigletter {
-  font-size: 150px;
+#bigletter01 {
+  font-size: 170px;
+  --wght: 100;
+  color: #1483d7;
+}
+
+#bigletter02 {
+  font-size: 90px;
+    --wght: 400;
+    color: #edc215;
+}
+
+#bigletter03 {
+  font-size: 170px;
+  --wght: 900;
+  color: #139e54;
+  padding-bottom: 0.2em;
+  margin-top: 0.1em;
 }
 
 #bigletter2 {
   font-size: 230px;
+  color: #e788bb;
+  max-height: 30%;
 }
 
 #bigletter3 {
   font-size: 40px;
   text-align: center;
-}
-.plain {
-  transition: font-variation-settings .5s ease-in-out;
-  font-variation-settings: 'Weave' 900;
-  font-size: 400px;
-/*  float: left;*/
-/*  line-height: 1;*/
-
-  .plain: hover {
-    font-variation-settings: 'Weave' 900;
-  }
-}
-
-/*
-:root{
-  --wght: 400;
-  --wdth: 120;
-  --XHGT: 100;
-
-  --color: black;
-}*/
-
-body{
-  font-family: 'Weave', sans-serif;
-  font-style: normal;
-  font-size: 50px;
-  line-height: 1.0;
-  margin-bottom: 4rem;
-  color:  var(--color);
+  color: #e897b9;
 }
 
 .weave, .weave *{
   font-variation-settings: 'wght' var(--wght);
+  color: #c3dff2;
 }
-
 
 section{
   margin: 3rem 0;
@@ -65,8 +67,9 @@ section{
 
 #intro{
   font-size:10vw;
-  line-height: 0.9;
+  line-height: 0.8;
   text-align: center;
+
 }
 
 #content{
@@ -77,6 +80,7 @@ section{
 
 #content p{
   transition: font-variation-settings 400ms ease-in-out;
+   color: #139e54;
 }
 
 /*SLIDER STYLES*/
@@ -105,27 +109,36 @@ input.axis-range{
   margin: 0 20px;
 }
 
-
-/*BUTTON STYLES*/
-
-#buttons{
-  text-align: center;
+#tester{
+    --wght: 900;
 }
 
-button{
-  font-family: 'Weave', sans-serif;
-  font-variation-settings: 'wght' 400;
-  font-size: 1em;
-/*  background: none;*/
-/*  border-radius: 100%;*/
-/*  outline: none;*/
-/*  border: 3px solid black;*/
-/*  padding: 2em;*/
-  display: flex;
+
+.tester-container {
+    display: flex;
+    --wght: 900;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #e788bb;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+ background: repeating-linear-gradient(
+    to right,
+    #ffffff 3px,
+    #139e54 5px
+  );
 }
 
-button:hover{
-  /*color: white;*/
-  cursor: pointer;
-  font-weight: 900;
+#tester {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-size: 4vw;
+    --wght: 900;
+    line-height: 0.63em;
+    text-align: center;
 }
+
+ 
