@@ -1,0 +1,45 @@
+
+  @font-face {
+   font-family: 'Capuche Trial';
+   src: url('fonts/capuche.otf') format('otf'); 
+ }
+ 
+.cover{
+  z-index: -1;
+  max-height: 100vh;
+  position: absolute;
+  margin-top: 0;
+}
+.title{
+  z-index: 1;
+  margin-bottom: 1.2em;
+  font-size: 35px;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*.title k{
+  z-index: 1;
+  margin-top: 5em;
+}*/
+
+body{
+  font-family: 'Capuche Trial', monospace;
+  text-align: center;
+  min-height: 100vh;
+}
+main{
+  font-size: 4vw;
+  text-align: center;
+  max-height: 100vh;
+}
+
+#word, #pronounciation, #meaning{
+  display: inline;
+  text-align: center;
+}
+
+
+
+
