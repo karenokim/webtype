@@ -15,6 +15,7 @@ $(document).ready(function(){
         
         let meaning = item.meaning;
         console.log(meaning);
+        $('#meaning').text(meaning);
 
       });
 
