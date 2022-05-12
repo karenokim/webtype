@@ -52,7 +52,7 @@ img{
 
 #word{
   font-size: 4vw;
-  padding-top: 2em;
+  padding-top: 4em;
 }
 
 #pronounciation{
@@ -62,8 +62,9 @@ img{
 
 #meaning{
   font-size: 1.5vw;
-  max-width: 50%;
+  max-width: 55%;
   margin: auto;
+  padding-bottom: 2em;
   
 }
 
