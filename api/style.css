@@ -1,45 +1,70 @@
-
-  @font-face {
-   font-family: 'Capuche Trial';
-   src: url('fonts/capuche.otf') format('otf'); 
- }
- 
 .cover{
   z-index: -1;
-  max-height: 100vh;
   position: absolute;
   margin-top: 0;
 }
+
 .title{
   z-index: 1;
-  margin-bottom: 1.2em;
-  font-size: 35px;
-  max-width: 50%;
+
   margin-left: auto;
   margin-right: auto;
+  color: black;
 }
-
-/*.title k{
-  z-index: 1;
-  margin-top: 5em;
-}*/
 
 body{
-  font-family: 'Capuche Trial', monospace;
-  text-align: center;
-  min-height: 100vh;
-}
-main{
-  font-size: 4vw;
+  font-family: 'Yoon Daehan', monospace;
   text-align: center;
   max-height: 100vh;
 }
 
-#word, #pronounciation, #meaning{
-  display: inline;
-  text-align: center;
+
+.title.k{
+  font-size: 5vw;
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+
+.title.e{
+  font-size: 1.7vw;
+  padding-bottom: 100px;
+  max-width: 45%;
+}
+
+.columns{
+  display: flex;
+  color: white;
+}
+
+.col1 {
+  flex:  1;
+}
+
+.col2 {
+  flex:  1;
+
+}
+
+img{
+  width: 100%;
 }
 
 
+#word{
+  font-size: 4vw;
+  padding-top: 2em;
+}
+
+#pronounciation{
+  font-size: 1.3vw;
+  margin-bottom: 2em;
+}
+
+#meaning{
+  font-size: 1.5vw;
+  max-width: 50%;
+  margin: auto;
+  
+}
 
 

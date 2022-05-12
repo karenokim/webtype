@@ -1,97 +1,93 @@
 [
   {
     "word": "눈치",
-    "pronounciation": "noon-chi",
-    "meaning": "Describes being in tune to someone else's feelings, thoughts and emotions to properly gauge and react to a situation"
-  },
-  {
-    "word": "한",
-    "pronounciation": "han",
-    "meaning": "Collective feeling of sadness and oppression, defined by the Los Angeles Times as “intensely personal, yet carried around collectively, a national torch, a badge of suffering tempered by a sense of resiliency.”"
+    "pronounciation": "(noon-chi)",
+    "meaning": "Being in tune to someone else's feelings, thoughts, and emotions to properly gauge and react to a situation",
+    "image": "1word.png",
+    "bg": "#b3c0d1"
   },
   {
     "word": "정",
     "pronounciation": "jeong",
-    "meaning": "Jeong is the country’s putatively real and unique form of social relational bonding. Sometimes translated as “harmony” or “coexistence,” its definition is far more complex. So much so that Koreans often have difficulty defining the word. Put simply, jeong refers to the emotional and psychological bonds that join the collective society of Korea; it pervades all levels, dissecting the world into various degrees of woo-ri (us) versus them."
+    "meaning": "The particular feeling of attachment between people or sometimes a community.",
+    "image": "2word.png",
+    "bg": "#6e6853"
+  },
+  {
+    "word": "썩소",
+    "pronounciation": "seok-seo",
+    "meaning": "Short for 썩은 미소, which translates to \"rotten smile\". Refers to when someone's smile is empty or meaningless.",
+    "image": "3word.png",
+    "bg": "#f06c65"
   },
   {
     "word": "분위기",
     "pronounciation": "boon-wee-gi",
-    "meaning": "The closest English term for 분위기 would be ambiance, but the term includes not just the vibe of a location but the feelings and emotions associated with the place and the people. While a place could have a great ambiance because of its decor, but bad 분위기 due to more intangible factors."
-  },
-  {
-    "word": "시원하다",
-    "pronounciation": "shi-won-ha-da",
-    "meaning": "Have you ever described a bowl of hot stew as \"refreshing\"? In Korea, this is a natural concept in Korea's food culture."
-  },
-  {
-    "word": "어이없다",
-    "pronounciation": "uh-ee-up-da",
-    "meaning": "This word literally translates to “without a reason.” In practice, it describes a situation that has no reason, or that is so absurd that it leaves you dumbfounded."
-  },
-  {
-    "word": "대박",
-    "pronounciation": "dae-bak",
-    "meaning": "An exclamation indication joy and astonishment at the same time"
-  },
-  {
-    "word": "화이팅",
-    "pronounciation": "hwa-yi-ting",
-    "meaning": "The word itself derives from the word 'fighting', but has a completely different meaning. It is a term for encouragement."
+    "meaning": "The closest English term for 분위기 would be ambiance, but the term includes not just the vibe of a location but the feelings and emotions associated with the place and the people. While a place could have a great ambiance because of its decor, but bad 분위기 due to more intangible factors.",
+    "image": "4word.png",
+    "bg": "#4a7194"
   },
   {
     "word": "답답하다",
     "pronounciation": "dab-dab-ha-da",
-    "meaning": "Describes feeling \"stuffy\", used more to refer to emotions than physical condition"
-  },
-  {
-    "word": "아쉽다",
-    "pronounciation": "ah-shib-da",
-    "meaning": "Feeling pity or disappointed by a situation or turn of events"
-  },
-  {
-    "word": "꽃길",
-    "pronounciation": "ggot-kil",
-    "meaning": "Literally meaing \"flower road\", but refers to a path of life filled with happiness, as if you were walking on a path of flowers"
+    "meaning": "Describes feeling \"stuffy\", used more to refer to emotions than physical condition",
+    "image": "5word.png",
+    "bg": "#3f6338"
   },
   {
     "word": "소나기",
     "pronounciation": "so-na-gi",
-    "meaning": "Sudden downpour of rain that lasts about a minute"
+    "meaning": "Sudden downpour of rain that lasts about a minute",
+    "image": "6word.png",
+    "bg": "#889e98"
   },
   {
     "word": "여우비",
     "pronounciation": "yeo-you-bi",
-    "meaning": "Rain on a clear day"
+    "meaning": "Rain on a clear day",
+    "image": "7word.png",
+    "bg": "#393939"
   },
   {
     "word": "이슬비",
-    "pronounciation": "i-seul-bi",
-    "meaning": "Drizzle"
+    "pronounciation": "e-seul-bi",
+    "meaning": "Thin drips of rainfall, a drizzle",
+    "image": "8word.png",
+    "bg": "#637586"
   },
   {
-    "word": "헐",
-    "pronounciation": "hull",
-    "meaning": "Equivalent to \"oh my gosh"
+    "word": "삼천포로 빠졌다",
+    "pronounciation": "sam-cheon-po-ro-bba-jyut-dda",
+    "meaning": "Used when you wander off topic, get sidetracked, or fly off on a tangent during a coversation. 삼천포 is a part of the sea on the southern coast of the Korean peninsula.",
+    "image": "9word.png",
+    "bg": "#330d28"
   },
   {
-    "word": "木漏れ日",
-    "pronounciation": "ko-mo-re-bi",
-    "meaning": "The sunlight that filters through trees"
+    "word": "하늘에 별 따기",
+    "pronounciation": "ha-neul-e-byul-dda-ggi",
+    "meaning": "Literally meaning \"plucking a star from the sky\". Describes wanting to attain something that is so out of reach that’s realistically unattainable.",
+    "image": "10word.png",
+    "bg": "#f3e262"
   },
   {
-    "word": "森林浴",
-    "pronounciation": "shin-rin-yo-ku",
-    "meaning": "Taking a peaceful walk through the woods."
+    "word": "멍 때리다",
+    "pronounciation": "mung-ddae-ri-da",
+    "meaning": "Zoning out",
+    "image": "11word.png",
+    "bg": "#28456c"
   },
   {
-    "word": "積ん読",
-    "pronounciation": "tsun-do-ku",
-    "meaning": "Tsun\" means \"pile up\", and \"doku\" means \"to read\". Together, it refers to the act of buying so many books and ending up not reading them."
+    "word": "아리송",
+    "pronounciation": "a-ri-song",
+    "meaning": "A situation that is ambiguous and vague, difficult to grasp.",
+    "image": "12word.png",
+    "bg": "#241d25"
   },
   {
-    "word": "わびさび",
-    "pronounciation": "wa-bi-sa-bi",
-    "meaning": "Appreciation of the beauty of imperfection and impermanence. It is both a traditional Japanese aesthetic as well as a style of art that focuses on restraint and simplicity."
+    "word": "먹구름",
+    "pronounciation": "muk-goo-rum",
+    "meaning": "Describes ominous dark clouds that hint rainfall, also used metaphorically to describe a state in which something is going wrong or shows bad signs.",
+    "image": "13word.png",
+    "bg": "#1d324c"
   }
 ]
